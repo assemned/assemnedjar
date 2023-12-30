@@ -150,7 +150,7 @@ export default function Home() {
         </div>
 
         <motion.div
-          className=" cursor-pointer bg-green-500 hover:bg-white duration-1000 text-black overflow-hidden flex justify-center items-center fixed top-10 right-10 max-lg:absolute max-lg:w-16 max-sm:right-5 w-24 h-[90vh]"
+          className=" cursor-pointer bg-primary hover:bg-white duration-1000 text-black overflow-hidden flex justify-center items-center fixed top-10 right-10 max-lg:absolute max-lg:w-16 max-sm:right-5 w-24 h-[90vh]"
           initial={{ height: 0, originY: 0 }}
           animate={inView1 && { height: "90%" }}
           transition={{ duration: 0.5, delay: 0 }}>
