@@ -61,7 +61,7 @@ export const SKILLS = [
   { name: "Bootstrap", picture: "/skills/bootstrap.png" },
   { name: "Tailwind", picture: "/skills/tailwind.png" },
   { name: "JS", picture: "/skills/js.png" },
-  { name: "React", picture: "/skills/React.png" },
+  { name: "React", picture: "/skills/react.png" },
   { name: "Node", picture: "/skills/node.png" },
   { name: "Express", picture: "/skills/node.png" },
   { name: "MongoDB", picture: "/skills/mongodb.png" },
