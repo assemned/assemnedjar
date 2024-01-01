@@ -154,7 +154,7 @@ export default function Home() {
           initial={{ height: 0, originY: 0 }}
           animate={inView1 && { height: "90%" }}
           transition={{ duration: 0.5, delay: 0 }}>
-          <Link href="/form" className=" flex justify-center items-center ">
+          <Link href="https://calendly.com/assem-webdeveloper/30min" className=" flex justify-center items-center ">
             <h2
               className=" animate-scrolling-text font-Betatron text-5xl font-bold"
               style={{ writingMode: "vertical-lr" }}>
@@ -306,7 +306,7 @@ export default function Home() {
           animate={inView6 && { opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.3 }}>
           <Link
-            href="/form"
+            href="https://calendly.com/assem-webdeveloper/30min"
             className=" font-Betatron text-9xl max-lg:text-8xl max-sm:text-6xl text-center py-20 cursor-pointer">
             <span className="text-stroke">START </span>A <br />
             <span className="text-stroke"> PROJECT</span>
