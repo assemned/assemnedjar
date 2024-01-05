@@ -232,7 +232,7 @@ export default function Home() {
                 <p className=" font-Montserrat">{`[0${index + 1}]`}</p>
               </Link>
               <div className={` project-bg${index} fixed max-w-2xl right-10`}>
-                <img src={project.bg} />
+                <img src={project.bg}  loading="lazy"/>
               </div>
             </div>
           ))}
