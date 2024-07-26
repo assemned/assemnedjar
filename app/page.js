@@ -202,9 +202,7 @@ export default function Home() {
           transition={{ duration: 1, delay: 0, staggerChildren: 0.1 }}>
           <span className="text-stroke">ECOM</span> STORES
           <br />
-          FOR
-          <br />
-          ONLINE <span className="text-stroke"> BRANDS</span>
+          FOR ONLINE <span className="text-stroke"> BRANDS</span>
         </motion.h1>
         <motion.p
           className=" uppercase text-center"
