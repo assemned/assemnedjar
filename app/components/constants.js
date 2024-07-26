@@ -51,7 +51,7 @@ export const PROJECTS = [
     skills: ["Platform", "Custom Coding"],
     description:
       "Dream Home is a platform for buying, renting, and selling houses in Algeria, built with custom coding.",
-    bg: "/projects/dream.png",
+    bg: "/projects/dream.webp",
   },
 ];
 
