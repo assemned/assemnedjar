@@ -335,7 +335,7 @@ export default function Home() {
           className=" before:block before:h-[1px] before:w-full before:bg-white mt-20"></motion.div>
         <div className="flex justify-between max-[500px]:flex-col max-[500px]:text-center">
           <p className=" py-8 text-sm">
-            © ASSEM NEDJAR. ALL RIGHTS RESERVED 2023.
+            © ASSEM NEDJAR. ALL RIGHTS RESERVED 2024.
           </p>
 
           <ul className=" flex justify-center items-center gap-5 text-xs mr-32 max-lg:mr-0 max-[500px]:mb-5">
