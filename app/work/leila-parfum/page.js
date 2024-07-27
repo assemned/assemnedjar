@@ -21,6 +21,13 @@ const page = () => {
         outerAlpha={1}
         trailingSpeed={15}
       />
+      <div className=" relative flex justify-end">
+        <Link
+          href="/"
+          className="  top-0 right-0 p-5 hover:rotate-180 duration-500">
+          <IoMdClose className=" size-10" />
+        </Link>
+      </div>
       {PROJECTS.map((project, index) =>
         project.url === "leila-parfum" ? (
           <div
@@ -29,7 +36,7 @@ const page = () => {
             <div className=" flex justify-center items-center relative w-full h-full">
               <img
                 src={project.bg}
-                className=" max-w-4xl w-full cursor-pointer relative pt-28 opacity-95"
+                className=" max-w-4xl w-full cursor-pointer relative opacity-95"
               />
 
               <div className="overflow-hidden flex justify-center items-center absolute h-full pointer-events-none w-full">
@@ -62,12 +69,6 @@ const page = () => {
                 {project.description}
               </p>
             </div>
-
-            <Link
-              href="/"
-              className=" fixed top-0 right-0 p-5 hover:rotate-180 duration-500">
-              <IoMdClose className=" size-10" />
-            </Link>
           </div>
         ) : null
       )}
