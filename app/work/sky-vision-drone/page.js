@@ -28,10 +28,10 @@ const page = () => {
             className=" flex justify-center items-center flex-col">
             <img
               src={project.bg}
-              className=" max-w-4xl  max-h-[80vh] cursor-pointer relative pt-28 opacity-90"
+              className=" max-w-4xl max-h-[80vh] cursor-pointer relative pt-28 opacity-95"
             />
 
-            <div className="overflow-hidden flex justify-center items-center absolute top-[10%] max-lg:top-[20%] max-sm:top-[15%] max-[450px]:top-[12%] pointer-events-none w-full">
+            <div className="overflow-hidden flex justify-center items-center absolute top-[15%] max-lg:top-[13%] max-sm:top-[12%] max-[450px]:top-[11%] pointer-events-none w-full">
               <h2 className=" animate-scrolling-text-horizontal font-Betatron text-[300px] max-lg:text-[200px] max-md:text-[150px] max-[450px]:text-[120px] font-bold text-stroke-trans">
                 {project.name} {project.name} {project.name} {project.name}{" "}
                 {project.name} {project.name} {project.name} {project.name}{" "}
@@ -39,15 +39,14 @@ const page = () => {
                 {project.name} {project.name} {project.name} {project.name}{" "}
               </h2>
             </div>
-            <div className=" text-white flex justify-between items-center w-full  max-w-4xl py-16 border-b-2 border-white uppercase">
+            <div className=" text-white flex justify-center items-center w-full  max-w-4xl py-16 border-b-2 border-white uppercase">
               <Link
-                className=" flex justify-center items-center text-2xl gap-1"
+                className=" flex justify-center items-center text-xl gap-1"
                 href={project.link}
                 target="_blank">
-                <FiArrowUpRight className=" size-10" />
+                <FiArrowUpRight className=" size-8" />
                 <span className=" underline">{project.name}</span>
               </Link>
-              <p>Website</p>
             </div>
             <div className=" text-white flex justify-between items-start w-full  max-w-4xl py-16 max-md:flex-col max-md:gap-5 max-md:text-center">
               <ul className=" max-md:w-full">

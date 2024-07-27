@@ -143,7 +143,9 @@ export default function Home() {
           <a className=" cursor-pointer inline-block after:w-full after:h-[1px] after:m-auto after:duration-500 after:delay-300 after:bg-white after:block hover:after:w-0 origin-center max-lg:hidden">
             ASSEMNED1000@GMAIL.COM
           </a>
-          <p className=" max-lg:mt-20">ECOM STORES FOR ONLINE BRANDS</p>
+          <p className=" max-lg:mt-20 max-sm:hidden">
+            ECOM STORES FOR ONLINE BRANDS
+          </p>
         </div>
 
         <motion.div
