@@ -31,7 +31,7 @@ const page = () => {
               className=" max-w-4xl w-full cursor-pointer relative pt-28 opacity-95"
             />
 
-            <div className="overflow-hidden flex justify-center items-center absolute top-[15%] max-lg:top-[20%] max-sm:top-[15%] max-[450px]:top-[12%] pointer-events-none w-full">
+            <div className="overflow-hidden flex justify-center items-center absolute top-[15%] max-lg:top-[20%] max-sm:top-[15%] max-[450px]:top-[40%] pointer-events-none w-full">
               <h2 className=" animate-scrolling-text-horizontal font-Betatron text-[300px] max-lg:text-[200px] max-md:text-[150px] max-[450px]:text-[120px] font-bold text-stroke-trans">
                 {project.name} {project.name} {project.name} {project.name}{" "}
                 {project.name} {project.name} {project.name} {project.name}{" "}
