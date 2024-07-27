@@ -236,10 +236,10 @@ export default function Home() {
                 <p className=" font-Montserrat">{`[0${index + 1}]`}</p>
               </Link>
               <div
-                className={` project-bg${index} fixed max-w-2xl max-h-[50vh] right-10 max-sm:right-0`}>
+                className={` project-bg${index} fixed max-w-2xl right-10 max-sm:right-1`}>
                 <img
                   src={project.bg}
-                  className=" max-h-[80vh]"
+                  className=" max-h-[50vh]"
                   loading="lazy"
                 />
               </div>
