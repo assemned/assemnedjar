@@ -21,23 +21,32 @@ const page = () => {
         outerAlpha={1}
         trailingSpeed={15}
       />
+      <div className=" relative flex justify-end">
+        <Link
+          href="/"
+          className="  top-0 right-0 p-5 hover:rotate-180 duration-500">
+          <IoMdClose className=" size-10" />
+        </Link>
+      </div>
       {PROJECTS.map((project, index) =>
         project.url === "myparfum-dz" ? (
           <div
             key={index}
             className=" flex justify-center items-center flex-col">
-            <img
-              src={project.bg}
-              className=" max-w-4xl w-full cursor-pointer relative pt-28 opacity-95"
-            />
+            <div className=" flex justify-center items-center relative w-full h-full">
+              <img
+                src={project.bg}
+                className=" max-w-4xl w-full cursor-pointer relative opacity-95"
+              />
 
-            <div className="overflow-hidden flex justify-center items-center absolute top-[15%] max-lg:top-[20%] max-sm:top-[15%] max-[450px]:top-[12%] pointer-events-none w-full">
-              <h2 className=" animate-scrolling-text-horizontal font-Betatron text-[300px] max-lg:text-[200px] max-md:text-[150px] max-[450px]:text-[120px] font-bold text-stroke-trans">
-                {project.name} {project.name} {project.name} {project.name}{" "}
-                {project.name} {project.name} {project.name} {project.name}{" "}
-                {project.name} {project.name} {project.name} {project.name}{" "}
-                {project.name} {project.name} {project.name} {project.name}{" "}
-              </h2>
+              <div className="overflow-hidden flex justify-center items-center absolute h-full pointer-events-none w-full">
+                <h2 className=" animate-scrolling-text-horizontal font-Betatron text-[300px] max-lg:text-[200px] max-md:text-[150px] max-[450px]:text-[120px] font-bold text-stroke-trans">
+                  {project.name} {project.name} {project.name} {project.name}{" "}
+                  {project.name} {project.name} {project.name} {project.name}{" "}
+                  {project.name} {project.name} {project.name} {project.name}{" "}
+                  {project.name} {project.name} {project.name} {project.name}{" "}
+                </h2>
+              </div>
             </div>
             <div className=" text-white flex justify-center items-center w-full  max-w-4xl py-16 border-b-2 border-white uppercase">
               <Link
@@ -60,12 +69,6 @@ const page = () => {
                 {project.description}
               </p>
             </div>
-
-            <Link
-              href="/"
-              className=" fixed top-0 right-0 p-5 hover:rotate-180 duration-500">
-              <IoMdClose className=" size-10" />
-            </Link>
           </div>
         ) : null
       )}
